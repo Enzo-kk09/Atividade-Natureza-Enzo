@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho da natureza</title>
+    <link rel="stylesheet" href="abacaxi.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header class="banner">
+
+     <div>
+        <img class="logo2" src="batata2.jpg"> 
+     </div>
+
+     <div class="logo">Umbra</div>
+    <nav class="links">
+        <a href="https://www.tnc.org.br/">Menu</a>
+        <a href="https://www.tnc.org.br/conecte-se/comunicacao/relatorios/relatorio-anual-2024/">Galeria</a>
+        <a href="https://www.tnc.org.br/ajude/cadastre-se/">Contato</a>
+    </nav>
+</header>
+
+ <div class="layout">
+        
+    <main class="cards">
+
+         <div class="card">
+            <h3>Florestas Tropicais</h3>
+            <p>As florestas abrigam a maior parte da biodiversidade terrestre do nosso planeta.</p>
+        </div>
+
+        <div class="card">
+            <h3>Oceanos</h3>
+            <p>Cerca de 70% da superfície da Terra é coberta por oceanos, essenciais para o clima.</p>
+        </div>
+
+        <div class="card">
+            <h3>Montanhas</h3>
+            <p>Ecossistemas de altitude possuem fauna e flora únicas e adaptadas ao frio.</p>
+        </div>
+
+        <div class="card">
+            <h3>Fauna Silvestre</h3>
+            <p>Proteger os habitats naturais é a melhor forma de salvar espécies em extinção.</p>
+        </div>
+
+    </main>
+
+    <aside class="curiosidades">
+
+        <h3>Você Sabia?</h3>
+
+        <div class="dicafoda">
+            <p><strong>Curiosidade:</strong> Uma única árvore pode absorver até 22kg de CO2 por ano.</p>
+        </div>
+
+        <div class="dicafoda">
+            <p><strong>Notícia:</strong> Novas áreas de preservação foram aprovadas neste semestre.</p>
+        </div>
+
+        <div class="dicafoda">
+            <p><strong>Dica:</strong> Reduza o uso de plásticos de uso único para ajudar os oceanos.</p>
+        </div>
+
+
+    </aside>
+
+ </div>
+
+ <section id="contato" class="sectioncontato">
+
+    <h2>Fale Conosco</h2>
+
+    <form class="formulario" action="post" method="POST">
+            
+        <div class="seila">
+            <label for="nome">Nome Completo </label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+        </div>
+
+        <div class="aotodo">
+            <div class="seila">
+                <label for="cpf">CPF </label>
+                <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" title="Digite no formato: 000.000.000-00" required>
+            </div>
+
+            <div class="seila">
+                <label for="nascimento">Data de Nascimento </label>
+                <input type="date" id="nascimento" name="nascimento" required>
+            </div>
+
+        </div>
+
+        <div class="aotodo">
+
+            <div class="seila">
+                <label for="email">E-mail </label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+            </div>
+
+            <div class="seila">
+                <label for="telefone">Telefone </label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" title="Digite no formato: (00) 00000-0000" required>
+            </div>
+
+        </div>
+
+        <div class="seila">
+            <label for="assunto">Assunto</label>
+            <select id="assunto" name="assunto">
+                <option value="duvida">Dúvida</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="denuncia">Denúncia Ambiental</option>
+                <option value="parceria">Parceria</option>
+            </select>
+        </div>
+
+        <div class="seila">
+            <label for="mensagem">Mensagem </label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+        </div>
+
+        <div class="termo">
+            <input type="checkbox" id="termos" name="termos" required>
+            <label for="termos">Aceito os termos de privacidade e condições de uso.</label>
+        </div>
+
+        <button type="submit" class="botao">Enviar Mensagem</button>
+    </form>
+
+ </section>
+
+ <footer class="rodape">
+
+    <div class="coluna-footer">
+        <h4>Sobre Nós</h4>
+        <p>Somos um portal dedicado a espalhar conscientização sobre a importância da preservação ambiental e da sustentabilidade.</p>
+    </div>
+
+    <div class="coluna-footer">
+        <h4>Contato</h4>
+        <p>Email: Umbra@hotmail.com</p>
+        <p>Telefone: (51) 99857-7949</p>
+        <p>Endereço: Rua Nova República, 105</p>
+    </div>
+
+    <div class="coluna-footer">
+            <h4>Redes Sociais</h4>
+            <a href="https://www.instagram.com/tncbrasil">Instagram</a><br>
+            <a href="https://www.facebook.com/TNCBrasil">Facebook</a><br>
+            <a href="https://x.com/TNCBrasil">Twitter</a>
+    </div>
+
+ </footer>
+
+</body>
+</html>

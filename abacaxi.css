@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu';
+}
+
+body {
+    background-color: #f4f7f6;
+    line-height: 1.6;
+}
+
+.logo2{
+    width: 200px;    
+    object-fit: contain;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(batata.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    height: 250px;
+    font-family: 'Ubuntu';
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.links a:hover {
+    color: #4CAF50; 
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.cards {
+    display: grid;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-top: 4px solid #4CAF50;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #2E7D32;
+}
+
+.curiosidades {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #E8F5E9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.curiosidades h3 {
+    color: #1B5E20;
+    margin-bottom: 10px;
+}
+
+.dicafoda {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    border-left: 3px solid #4CAF50;
+}
+
+.sectioncontato {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.sectioncontato h2 {
+    text-align: center;
+    color: #2E7D32;
+    margin-bottom: 25px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario textarea {
+    resize: none;
+}
+
+.seila {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.aotodo {
+    display: flex;
+    gap: 20px;
+}
+
+.formulario label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="date"],
+.formulario select,
+.formulario textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.termo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.botao {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.botao:hover {
+    background-color: #388E3C;
+}
+
+.rodape {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    background-color: #2E7D32;
+    color: white;
+    padding: 40px 50px;
+}
+
+.coluna-footer h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.coluna-footer a {
+    color: #C8E6C9;
+    text-decoration: none;
+}
+
+.coluna-footer a:hover {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .layout {
+        grid-template-columns: 1fr;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .rodape {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .coluna-footer h4 {
+        margin-top: 20px;
+    }
+}
